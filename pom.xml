@@ -350,7 +350,7 @@
                         <cpu>4</cpu>
                         <memoryInGB>4</memoryInGB>
                         <instanceCount>1</instanceCount>
-                        <runtimeVersion></runtimeVersion>
+                        <runtimeVersion>Java11</runtimeVersion>
                         <jvmOptions>-noverify -XX:TieredStopAtLevel=1</jvmOptions>
                         <environment>
                             <spring.profiles.active>prod</spring.profiles.active>
