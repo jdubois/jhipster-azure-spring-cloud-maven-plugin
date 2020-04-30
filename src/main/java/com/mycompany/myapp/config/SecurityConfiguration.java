@@ -82,6 +82,7 @@ public class SecurityConfiguration {
         .and()
             .authorizeExchange()
             .pathMatchers("/api/auth-info").permitAll()
+            .pathMatchers("/api/hello").permitAll()
             .pathMatchers("/api/**").authenticated()
             .pathMatchers("/management/health").permitAll()
             .pathMatchers("/management/info").permitAll()
