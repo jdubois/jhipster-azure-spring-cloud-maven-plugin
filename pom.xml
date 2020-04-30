@@ -344,7 +344,7 @@
                     <subscriptionId>10494bac-4dc9-4f66-9563-996f688d9c6c</subscriptionId>
                     <clusterName>judubois-test-cluster</clusterName>
                     <appName>helloworld</appName>
-                    <isPublic>true</isPublic>>
+                    <isPublic>true</isPublic>
                     <enablePersistentStorage>false</enablePersistentStorage>
                     <deployment>
                         <cpu>4</cpu>
